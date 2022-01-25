@@ -2,59 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Invitation</title>
+    <title>Tinder</title>
     <style>
-        div{
-            padding-bottom: 18px;
-            line-height: 30px;
-            font-size: 18px;
-            font-family: "system-ui";
+        .div-title{
+            text-align: center;
+        }
+
+        .profile-picture{
+            width: 548px;
+            border-radius: 20px 20px 20px 20px;
+            border: 1px solid rgba(192, 192, 192, 0.5);
+            margin: 20px auto;
+        }
+
+        hr{
+            width: 560px;
+            border: 1px solid rgba(192, 192, 192, 0.5);
+        }
+
+        .div-image{
+            border-radius: 20px 20px 0 0;
+        }
+
+        .cap{
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        .SF{
+            font-family: "Khmer Sangam MN",serif;
         }
 
         .dark{
-            font-weight: 800;
+            font-weight: bold;
         }
 
         .big{
-            font-size: 24px;
+            font-size: 26px;
         }
 
-        .sup{
-            font-size: 12px;
-            line-height: 2em;
-            vertical-align: top;
+        .mid{
+            font-size: 20px;
         }
 
-        .small-vspace{
-            line-height: 40px;
-        }
-
-        .small{
-            font-size: 14px;
+        .grey{
+            color: grey;
         }
 
         .light{
-            color: rgba(169, 169, 169, 0.80);
+            color: white;
+        }
+
+        .gray-button{
+            background: rgba(169,169,169, 0.5);
+            width: 320px;
+            height: 70px;
+            margin: 0 auto;
+            border-radius: 40px 40px 40px 40px;
+            padding-left: 40px;
+            line-height: 70px;
+        }
+
+        .heart-button{
+            height: 56%;
+            vertical-align: middle;
+        }
+
+        .text-button{
+            vertical-align: sub;
+            padding-left: 12px;
         }
     </style>
 </head>
 <body>
-    <div>
-        <span class="light small">You are cordially invited to</span><br>
-        <span class="dark big">
-            Robert and Alexandra’s<br>
-            delectable after dinner party.
-        </span><br>
-        <span class="small-vspace"></span>
-        <span class="light"> Wine and nibbles will be served.</span>
+<div class="div-title">
+    <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_logo.png"
+         alt="Tinder logo" title="tinder logo">
+</div>
+<hr />
+<div class="profile-picture">
+    <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_person.png"
+         alt="profile img" title="profile image" class="div-image">
+    <div class="cap">
+        <span class="SF dark big"> Sean Rad, 29 </span>
+        <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_verified.png"
+             alt="verified logo" title="verified logo">
+        <br>
+        <span class="SF grey mid"> Verified </span>
     </div>
-    <div>
-        <span class="light">When:</span> <span class="dark">February 20th, 2019 at 9:30pm.</span><br>
-        <span class="light">Where:</span> <span class="dark">the pad</span>. If you need directions, ping us.
-    </div>
-    <div>
-        Kindly let us know if you will be attending<br>
-        by <span class="dark">February 1<span class="sup">st</span></span>.
-    </div>
+</div>
+<div class="gray-button">
+    <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/heart.png"
+         alt="heart image" title="heart image" class="heart-button">
+    <span class="SF big dark light text-button"> Like Me On Tinder</span>
+</div>
 </body>
 </html>
