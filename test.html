@@ -20,7 +20,7 @@
             border: 1px solid rgba(192, 192, 192, 0.5);
         }
 
-        div img{
+        .div-image{
             border-radius: 20px 20px 0 0;
         }
 
@@ -63,54 +63,40 @@
             line-height: 70px;
         }
 
-        .heart-logo{
-            width: 40px;
-            height: 40px;
-            vertical-align: middle;
-            display: inline-block;
-            text-align: center;
-        }
-
         .heart-button{
-            height: 100%;
-            vertical-align: baseline;
+            height: 56%;
+            vertical-align: middle;
         }
 
         .text-button{
             width: 240px;
-            height: 40px;
-            display: inline-block;
-            line-height: 40px;
             vertical-align: sub;
-            padding-left: 10px;
+            padding-left: 12px;
+            padding-right: 40px;
         }
     </style>
 </head>
 <body>
-    <div class="div-title">
-        <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_logo.png"
-             alt="Tinder logo" title="tinder logo">
+<div class="div-title">
+    <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_logo.png"
+         alt="Tinder logo" title="tinder logo">
+</div>
+<hr />
+<div class="profile-picture">
+    <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_person.png"
+         alt="profile img" title="profile image" class="div-image">
+    <div class="cap">
+        <span class="SF dark big"> Sean Rad, 29 </span>
+        <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_verified.png"
+             alt="verified logo" title="verified logo">
+        <br>
+        <span class="SF grey mid"> Verified </span>
     </div>
-    <hr />
-    <div class="profile-picture">
-        <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_person.png"
-             alt="profile img" title="profile image">
-        <div class="cap">
-            <span class="SF dark big"> Sean Rad, 29 </span>
-            <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/tinder_verified.png"
-                 alt="verified logo" title="verified logo">
-            <br>
-            <span class="SF grey mid"> Verified </span>
-        </div>
-    </div>
-    <div class="gray-button">
-        <div class="heart-logo">
-            <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/heart.png"
-                 alt="heart image" title="heart image" class="heart-button">
-        </div>
-        <div class="text-button">
-            <span class="SF big dark light">Like Me On Tinder</span>
-        </div>
-    </div>
+</div>
+<div class="gray-button">
+    <img src="https://coms4170.cs.columbia.edu/2019-spring/assignments/hw2/tinder_images/heart.png"
+         alt="heart image" title="heart image" class="heart-button">
+    <span class="SF big dark light text-button"> Like Me On Tinder</span>
+</div>
 </body>
 </html>
