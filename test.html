@@ -2,44 +2,172 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Warm Up</title>
+    <title>Twitter Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
 
     <style>
-        .words{
+        #blue-title{
+            background: lightblue;
+            height: 70px;
+            line-height: 40px;
+            padding: 15px 0;
+        }
+
+        #title-text{
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px;
+        }
+
+        .Font{
             font-family: Helvetica, sans-serif;
+        }
+
+        .mid{
+            font-size: 16px;
+        }
+
+        .big{
             font-size: 20px;
         }
 
-        #blue-title{
-            background: lightblue;
+        #nav-bar{
+            background: lightgrey;
+            height: 50px;
+            line-height: 30px;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar-item{
+            display: inline-block;
+            padding: 0 10px;
+            /*border: 1px solid black;*/
+        }
+
+        .nav-main{
+            white-space: nowrap;
+            /*border: 1px solid black;*/
+        }
+
+        .sec-head{
+            height: 50px;
+            line-height: 30px;
+            padding: 10px;
+        }
+
+        .fit{
+            width: 100%;
+        }
+
+        .tile{
+            padding: 10px 2%;
+        }
+
+        .l-pad{
+            padding-left: 4%;
+        }
+
+        .tile-pad{
+            padding: 0 2%;
+        }
+
+        .txt-middle{
             text-align: center;
         }
     </style>
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-sm-12" id="blue-title">
-                <span class="words">
-                    This row is lightblue, with centered text and has 1 column
+    <div class="container">
+        <div class="row" id="blue-title">
+            <div class="col-md-12 col-sm-12" id="title-text">
+                <span class="Font big">
+                    What's happening?
                 </span>
+            </div>
+        </div>
+        <div class="row flex-nowrap" id="nav-bar">
+<!--            <div class="col-md col-sm nav-main txt-middle">-->
+<!--                <span class="Font mid"> Home </span>-->
+<!--            </div>-->
+<!--            <div class="col-md col-sm nav-main txt-middle">-->
+<!--                <span class="Font mid"> About </span>-->
+<!--            </div>-->
+<!--            <div class="col-md col-sm nav-main txt-middle">-->
+<!--                <span class="Font mid"> Submission Deadlines </span>-->
+<!--            </div>-->
+<!--            <div class="col-md col-sm nav-main txt-middle">-->
+<!--                <span class="Font mid"> FAQ </span>-->
+<!--            </div>-->
+<!--            <div class="col-md col-sm nav-main txt-middle">-->
+<!--                <span class="Font mid"> Contract </span>-->
+<!--            </div>-->
+            <div class="col-md-6 col-sm-12 nav-main">
+                <div class="navbar-item">
+                    <span> Home </span>
+                </div>
+                <div class="navbar-item">
+                    <span> About </span>
+                </div>
+                <div class="navbar-item">
+                    <span> Submission Deadlines </span>
+                </div>
+                <div class="navbar-item">
+                    <span> FAQ </span>
+                </div>
+                <div class="navbar-item">
+                    <span> Contract </span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-auto">
+            </div>
+        </div>
+        <div class="row sec-head">
+            <div class="col-md">
+            <span class="Font mid"> Section header</span>
+            </div>
+        </div>
+        <div class="row tile-pad">
+            <div class="col-md-6 col-sm-12 tile">
+                <span class="Font mid l-pad"> title1 </span>
+                <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
+            </div>
+        </div>
+        <div class="row tile-pad">
+            <div class="col-md-3 col-sm-6 tile">
+                <span class="Font mid l-pad"> title2 </span>
+                <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
+            </div>
+            <div class="col-md-3 col-sm-6 tile">
+                <span class="Font mid l-pad"> title3 </span>
+                <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
+            </div>
+            <div class="col-md-3 col-sm-6 tile">
+                <span class="Font mid l-pad"> title4 </span>
+                <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
+            </div>
+            <div class="col-md-3 col-sm-6 tile">
+            </div>
+        </div>
+        <div class="row sec-head">
+            <div class="col-md txt-middle">
+                <span class="Font mid"> Featured </span>
+            </div>
+        </div>
+        <div class="row tile-pad">
+            <div class="col-md-4 col-sm-6 tile">
+                <span class="Font mid l-pad"> title5 </span>
+                <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
+            </div>
+            <div class="col-md-4 col-sm-6 tile">
+                <span class="Font mid l-pad"> title6 </span>
+                <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
+            </div>
+            <div class="col-md-4 col-sm-6 tile">
+                <span class="Font mid l-pad"> title7 </span>
+                <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-3 col-sm-12">
-            <span class="words"> Column1 </span>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <span class="words"> Column2 </span>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <span class="words"> Column3 </span>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <span class="words"> Column4 </span>
-        </div>
-    </div>
-</div>
 </body>
 </html>
