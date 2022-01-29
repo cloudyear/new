@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Twitter Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         #blue-title{
             background: lightblue;
@@ -75,33 +75,27 @@
         .txt-middle{
             text-align: center;
         }
+
+        .fit-wid{
+            width: fit-content;
+            /*min-width: ;*/
+        }
+
+        .bd{
+            border: 1px solid black;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row" id="blue-title">
+    <div class="container fit-wid bd">
+        <div class="row bd" id="blue-title">
             <div class="col-md-12 col-sm-12" id="title-text">
                 <span class="Font big">
                     What's happening?
                 </span>
             </div>
         </div>
-        <div class="row flex-nowrap" id="nav-bar">
-<!--            <div class="col-md col-sm nav-main txt-middle">-->
-<!--                <span class="Font mid"> Home </span>-->
-<!--            </div>-->
-<!--            <div class="col-md col-sm nav-main txt-middle">-->
-<!--                <span class="Font mid"> About </span>-->
-<!--            </div>-->
-<!--            <div class="col-md col-sm nav-main txt-middle">-->
-<!--                <span class="Font mid"> Submission Deadlines </span>-->
-<!--            </div>-->
-<!--            <div class="col-md col-sm nav-main txt-middle">-->
-<!--                <span class="Font mid"> FAQ </span>-->
-<!--            </div>-->
-<!--            <div class="col-md col-sm nav-main txt-middle">-->
-<!--                <span class="Font mid"> Contract </span>-->
-<!--            </div>-->
+        <div class="row flex-nowrap bd" id="nav-bar">
             <div class="col-md-6 col-sm-12 nav-main">
                 <div class="navbar-item">
                     <span> Home </span>
@@ -122,18 +116,18 @@
             <div class="col-md-6 col-sm-auto">
             </div>
         </div>
-        <div class="row sec-head">
+        <div class="row sec-head bd">
             <div class="col-md">
             <span class="Font mid"> Section header</span>
             </div>
         </div>
-        <div class="row tile-pad">
+        <div class="row tile-pad bd">
             <div class="col-md-6 col-sm-12 tile">
                 <span class="Font mid l-pad"> title1 </span>
                 <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
             </div>
         </div>
-        <div class="row tile-pad">
+        <div class="row tile-pad bd">
             <div class="col-md-3 col-sm-6 tile">
                 <span class="Font mid l-pad"> title2 </span>
                 <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
@@ -149,12 +143,12 @@
             <div class="col-md-3 col-sm-6 tile">
             </div>
         </div>
-        <div class="row sec-head">
+        <div class="row sec-head bd">
             <div class="col-md txt-middle">
                 <span class="Font mid"> Featured </span>
             </div>
         </div>
-        <div class="row tile-pad">
+        <div class="row tile-pad bd">
             <div class="col-md-4 col-sm-6 tile">
                 <span class="Font mid l-pad"> title5 </span>
                 <img src="https://coms4170.cs.columbia.edu/2020-spring/hw/hw2/columbia.jpg" alt="columbia" title="columbia" class="fit">
